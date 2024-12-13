@@ -1,0 +1,207 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.header{
+    text-align: center;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+.time{
+    text-align: center;
+    font-size: medium;
+    color: white;
+}
+
+.date{
+    text-align: center;
+    font-size: medium;
+    color: white;
+}
+
+.cityname{
+    text-align: center;
+    font-size: medium;
+    color: white;
+}
+
+.search-button {
+    text-align: center;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cardcurrentwhether{
+    width: 55%;
+    height: fit-content;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #4ca2afa7, #2c3e50bb);
+    color: white;
+}
+
+.cardhourlywhether{
+    width: 100%;
+    height: 100%;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #4ca2afa7, #2c3e50bb);
+    color: white;
+}
+.maincol{
+    width: 100%;
+    height: 100%;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #2c3e504a, #4ca2af21);
+    color: white;
+}
+
+.temp{
+    margin-left: 18%;
+    margin-bottom: 0%;
+    font-size: 300%;
+
+}
+.card-main-div {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 10px;
+}
+.card {
+    flex: 0 0 auto; 
+    padding: 1px;
+    margin-right: 10px;
+    width: auto;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 2px;
+}
+.cardForecast {
+    flex: 0 0 auto;
+    padding: 10px;
+    width: auto;
+    height: 20%;
+    background: linear-gradient(to right, #2c3e50bb, #4ca2afa7);
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+.cardForecast img {
+    max-width: 50px; 
+}
+
+.cardForecast p {
+    margin: 0; 
+}
+
+.cardForecast-main-div {
+    overflow-y: auto;
+    max-height: 400px;
+}
+.forecast{
+    margin-left: 18%;
+    width: 100%;
+    font-size: 100%;
+}
+.uv-index{
+    width: 80%;
+    height: 100%;
+    margin: 2%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #4ca2afa7, #2c3e50bb);
+    color: white;
+}
+.humidity{
+    width:80%;
+    height: 100%;
+    margin: 2%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #4ca2afa7, #2c3e50bb);
+    color: white;
+}
+.wind{
+    width: 80%;
+    height: 100%;
+    margin: 2%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #4ca2afa7, #2c3e50bb);
+    color: white;
+}
+.Precipitation{
+    width: 80%;
+    height: 100%;
+    margin: 2%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #4ca2afa7, #2c3e50bb);
+    color: white;
+}
+.pressure{
+    width: 80%;
+    height: 100%;
+    margin: 2%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #4ca2afa7, #2c3e50bb);
+    color: white;
+}
+.visibility{
+    width: 80%;
+    height: 100%;
+    margin: 2%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #4ca2afa7, #2c3e50bb);
+    color: white;
+}
+.days10{
+    width: 100%;
+    height: 100%;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #4ca2afa7, #2c3e50bb);
+    color: white;
+}
+.map{
+    width: 100%;
+    height: 100%;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #4ca2afa7, #2c3e50bb);
+    color: white;
+}
+
+.alignment5{
+    margin-left: 5%;
+}
+.alignment2{
+    margin-left: 2%;
+}

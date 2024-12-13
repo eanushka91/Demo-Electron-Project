@@ -1,0 +1,4 @@
+node_modules/
+dist/
+dist/*
+!dist/MyApp-win32-x64/
